@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Problema de segurança / Security problem
+    url: https://github.com/ggekkos/espiadinha-releases/security/advisories/new
+    about: Avise em particular, não numa issue pública. / Report privately, not in a public issue.
