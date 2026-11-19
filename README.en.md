@@ -29,7 +29,9 @@ In the room:
 - 📍 (or **Ctrl+click** on the video) points at something on the sharer's screen. ✏️ draws over the video (fades by itself).
 - "Quality for me" lowers only what **you** receive, if your internet is bad.
 - 🗗 makes the window small and always on top. 📊 shows connection diagnostics. ⚙️ opens settings.
-- 😀 sends a reaction. 📎 (or **Ctrl+V**, or drag and drop) sends an image in the chat.
+- 😀 sends a reaction. 📎 (or **Ctrl+V**, or drag and drop) sends images and files
+  (up to 500 MB) in the chat. Files go straight from the sender to whoever clicks "Download" (not through the host)
+  and stay available while the sender is in the room.
 - 🎬 (or **Ctrl+Shift+F11**): the first press starts keeping the screen, the next ones save the last 30 s as MP4 in
   your Downloads folder.
 - ⚙️ → **Appearance**: classic and animated themes, accent color, your color and an avatar. You can create your own
@@ -71,11 +73,13 @@ signaling server in Advanced.
 - With a **room password**, people who don't know it don't even show up in the request list. The password isn't sent
   in plain text: a hash of it is sent together with the code. Use a password that isn't obvious, and send the invite
   only to people who will join.
-- The host rate-limits each person (chat, ping, drawing, images, themes, screen takeover) and only relays between
+- The host rate-limits each person (chat, ping, drawing, images, files, themes, screen takeover) and only relays between
   members what the app actually uses.
 - Everything that comes from other people (names, chat, images, themes) is treated as text or image, never as code.
   Names with invisible characters are cleaned, so nobody can imitate someone else's name.
 - Chat images only in WebP, JPEG, PNG or GIF (no SVG); themes go through full validation.
+- Files: only people in the room can download them, names arrive cleaned (no tricks to hide an `.exe`) and programs
+  or scripts ask for confirmation before downloading. Still, only open files from people you trust.
 - When the room changes host, whoever comes back must prove they're the same person.
 
 **Remaining risks:**

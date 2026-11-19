@@ -30,7 +30,9 @@ Na sala:
 - 👁 esconde a sua prévia enquanto compartilha (economiza GPU; no preset Jogo já começa escondida).
 - 🗗 deixa a janela pequena e sempre por cima. 📊 mostra o diagnóstico da conexão. ⚙️ abre as configurações.
 - 😀 manda uma reação que sobe na tela. ✏️ desenha por cima do vídeo (some sozinho em alguns segundos).
-- 📎 (ou **Ctrl+V** no campo de mensagem, ou arrastar) manda uma imagem no chat.
+- 📎 (ou **Ctrl+V** no campo de mensagem, ou arrastar) manda imagens e arquivos (até 500 MB) no chat. O arquivo vai
+  direto de quem mandou para quem clicar em "Baixar" (não passa pelo anfitrião) e fica disponível enquanto quem mandou
+  estiver na sala.
 - 🎬 (ou **Ctrl+Shift+F11**): o primeiro aperto começa a guardar a tela, os seguintes salvam os últimos 30 s
   em MP4 na pasta Downloads.
 - ⚙️ → **Aparência**: temas clássicos (Escuro, Claro, Vampiro...) e especiais com efeito animado (Frieren, Noite
@@ -77,11 +79,13 @@ Em Avançado dá para usar um servidor de sinalização seu.
   não recebe nada. Por isso "Recusar" não avisa a pessoa: ela fica esperando e desiste sozinha.
 - Com **senha da sala**, quem não sabe a senha nem aparece na lista de pedidos. A senha não vai em texto puro: vai
   um resumo (hash) dela junto com o código. Use uma senha que não seja óbvia, e mande o convite só para quem vai entrar.
-- O anfitrião limita mensagens por pessoa (chat, ping, desenho, imagens, temas, troca de tela) e só repassa entre
+- O anfitrião limita mensagens por pessoa (chat, ping, desenho, imagens, arquivos, temas, troca de tela) e só repassa entre
   membros o que o app usa.
 - Tudo que chega de outras pessoas (nomes, chat, imagens, temas) é tratado como texto ou imagem, nunca como código.
   Nomes com caracteres invisíveis são limpos, para ninguém imitar o nome de outra pessoa.
 - Imagens no chat só em WebP, JPEG, PNG ou GIF (sem SVG); temas passam por uma validação completa.
+- Arquivos: só quem está na sala consegue baixar, o nome chega limpo (sem truques para esconder um `.exe`) e
+  programas ou scripts pedem confirmação antes de baixar. Mesmo assim, só abra arquivos de quem você confia.
 - Quando a sala troca de anfitrião, quem volta precisa provar que é a mesma pessoa.
 
 **Os riscos que continuam:**
