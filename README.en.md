@@ -37,6 +37,10 @@ In the room:
 - ⚙️ → **Appearance**: classic and animated themes, accent color, your color and an avatar. You can create your own
   themes (background image, a character in a corner, colors, effects) and send them in the chat or as a
   `.espiadinha-tema` file.
+- 🐾 **Pet:** the paw button on the home screen opens a 16×16 pixel-art editor (up to 10 animations of 8 frames, with
+  selection, rotate and flip). The pet strolls around the home screen and, in the room, shows up in a corner while
+  nobody is sharing. Click it to pet it, feed it, play ball and do tricks; drag it and let go while moving to throw it
+  (each pet's "physics" sets how much it flies and bounces). The ball stays until you double-click it.
 
 ## Windows
 The installer isn't digitally signed, so Windows shows the SmartScreen warning ("Windows protected your PC"). Check

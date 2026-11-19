@@ -44,6 +44,10 @@ Na sala:
   clica em "Usar") ou 📤 exporta um arquivo `.espiadinha-tema` (quem recebe usa 📂 Importar ou arrasta para a janela).
   As animações param sozinhas enquanto alguém compartilha (dá para mudar em Configurações). ⚙️ → **Voz**: "apertar para falar" (segura uma tecla, ex.: F8) e abaixar o som da tela
   quando alguém fala. Sons de aviso podem ser desligados.
+- 🐾 **Pet:** o botão de patinha na tela inicial abre o editor de pixel art 16×16 (até 10 animações de 8 quadros, com
+  seleção, girar e espelhar). O pet passeia pela tela inicial e, na sala, aparece num cantinho quando ninguém está
+  compartilhando. Clique nele para carinho, comida, bolinha e truques; arraste e solte em movimento para jogar (a
+  "física" de cada pet diz o quanto ele voa e quica). A bolinha fica até você clicar duas vezes rápido nela.
 
 ## Windows
 O instalador não tem assinatura digital, então o Windows mostra o aviso do SmartScreen ("O Windows protegeu o
