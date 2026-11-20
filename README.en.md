@@ -30,7 +30,7 @@ In the room:
 - "Quality for me" lowers only what **you** receive, if your internet is bad.
 - 🗗 makes the window small and always on top. 📊 shows connection diagnostics. ⚙️ opens settings.
 - 😀 sends a reaction. 📎 (or **Ctrl+V**, or drag and drop) sends images and files
-  (up to 500 MB) in the chat. Files go straight from the sender to whoever clicks "Download" (not through the host)
+  (up to 1 GB) in the chat. Files go straight from the sender to whoever clicks "Download" (not through the host)
   and stay available while the sender is in the room.
 - 🎬 (or **Ctrl+Shift+F11**): the first press starts keeping the screen, the next ones save the last 30 s as MP4 in
   your Downloads folder.

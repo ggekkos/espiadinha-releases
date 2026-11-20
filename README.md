@@ -30,7 +30,7 @@ Na sala:
 - 👁 esconde a sua prévia enquanto compartilha (economiza GPU; no preset Jogo já começa escondida).
 - 🗗 deixa a janela pequena e sempre por cima. 📊 mostra o diagnóstico da conexão. ⚙️ abre as configurações.
 - 😀 manda uma reação que sobe na tela. ✏️ desenha por cima do vídeo (some sozinho em alguns segundos).
-- 📎 (ou **Ctrl+V** no campo de mensagem, ou arrastar) manda imagens e arquivos (até 500 MB) no chat. O arquivo vai
+- 📎 (ou **Ctrl+V** no campo de mensagem, ou arrastar) manda imagens e arquivos (até 1 GB) no chat. O arquivo vai
   direto de quem mandou para quem clicar em "Baixar" (não passa pelo anfitrião) e fica disponível enquanto quem mandou
   estiver na sala.
 - 🎬 (ou **Ctrl+Shift+F11**): o primeiro aperto começa a guardar a tela, os seguintes salvam os últimos 30 s
